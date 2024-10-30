@@ -1,0 +1,1137 @@
+*{font-family: Arial;box-sizing: border-box;}
+.SettingsDiv{
+	padding: 20px;
+    font-size: 16px;
+    color: #222;
+    margin-bottom: 0px;
+}
+.SectionLoader{
+	display:none;
+	position: absolute;
+	right: 0px;
+	width: 79%;
+	top: 0px;
+	height: 100%;
+	z-index: 5;
+	background: #FFF;
+}
+.SectionLoader .loading_spinner{
+	width: 60px;
+    height: 60px;
+	margin-left: -30px;
+    margin-top: -90px;
+}
+.Hipcolor,.Hipcolor:hover{
+	color:#FF1F4C;
+	text-decoration: none;
+}
+.PushProText{	
+	font-size: 15px;
+    margin-top: 5px;
+    float: left;
+}
+.ProWarning{
+	color:red;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+.SettingsDiv .SettingLabel{
+	font-size: 16px;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.ProductToHIP,.SYNCOrderofHIP{
+	float: left;
+	width: 100%;
+    margin-bottom: 10px;
+}
+.SaveSettingButton,.saveCategory{
+	margin-top: 30px;
+}
+#SaveSettings,#SaveCategory{
+	float: right;
+    padding: 12px 37px;
+    border-radius: 4px;
+    background: #FF1F4C;
+    color: #FFF;
+    font-size: 14px;
+    box-shadow: inset 0 0px 0 rgba(0,0,0,0.14);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    height: 42px;
+    position: relative;
+    min-width: 100px;
+    text-decoration: none;
+}
+.loading_spinner{
+	left: 50%;
+    margin-left: -10px;
+    top: 50%;
+    margin-top: -10px;
+    position: absolute;
+    z-index: 2 !important;
+    animation: loading-bar-spinner 900ms linear infinite;
+    -webkit-animation: loading-bar-spinner 900ms linear infinite;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: solid 2px #FF1F4C;
+    border-top-color: #FFF;
+    border-left-color: #FFF;
+    border-radius: 50%;
+}
+@keyframes loading-bar-spinner {
+	0%{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg); 
+	}
+	100% {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes loading-bar-spinner {
+  0%{
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg); 
+	}
+	100% {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+.progress_status_bar .progres_icon.StepCompleted,
+.ProgressBar .coneecting_rod.StepCompleted{
+	background: #69C238;
+}
+.StoreINFO{
+	width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+.floatLeft{
+	width:100%;
+	float:left;
+}
+#UnlinkStore .createStorBox{
+	align-self: center;
+    position: relative;
+}
+#UnlinkStore .createStorBox .addTrackHead{
+	padding: 20px;
+    font-size: 16px;
+    color: #222;
+    font-weight: 600;
+	margin-bottom: 0px;
+}
+#UnlinkStore .createStorBox .unlinkStoreName{
+	padding: 10px 20px 30px;
+}
+#UnlinkStore .createStorBox .unlinkTxtStor{
+	font-size: 14px;
+    color: #222;
+}
+#UnlinkStore .createStorBox #unlinkStoreName{
+	font-weight: 600;
+    color: #222;
+    display: inline-block;
+    margin-left: 5px;
+	text-transform: CAPITALIZE;
+}
+#UnlinkStore .createStorBox .addNowTrack{
+	float: left;
+    padding: 20px;
+    border-top: 1px solid #E1E8F0;
+    width: 100%;
+}
+#UnlinkStore .createStorBox #unlinkyes{
+	float: right;
+    padding: 12px 37px;
+    border-radius: 4px;
+    background: #FF1F4C;
+    color: #FFF;
+    font-size: 14px;
+    box-shadow: inset 0 0px 0 rgba(0,0,0,0.14);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    height: 42px;
+    position: relative;
+    min-width: 100px;
+	text-decoration: none;
+}
+#UnlinkStore .createStorBox .NoUnlinkBtn{
+	float: right;
+    padding: 10px 37px;
+    border: 2px solid #FF1F4C;
+    border-radius: 4px;
+    color: #FF1F4C;
+    font-size: 14px;
+    box-shadow: inset 0 0px 0 rgba(0,0,0,0.14);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -moz-transition: all .3s;
+    height: 42px;
+    position: relative;
+    margin-right: 20px;
+	text-decoration: none;
+}
+.loadingBox{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: #FF1F4C;
+	display: none;
+	z-index: 2;
+	border-radius: 4px;
+}
+.StoreINFO .Heading{
+	border-bottom: 1px solid #cccccc2e;
+    padding-bottom: 3px;
+}
+.DIV3.StoreINFO{
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.DIV1 .Storename,.DIV2 .storeAddress{
+	width: 100%;
+    float: left;
+    padding-top: 5px;
+}
+.DIV1 .StoreLinkClass{
+	width: 100%;
+    float: left;
+    padding-top: 5px;
+	text-transform: CAPITALIZE;
+}
+.DIV2 .StoreLinkClass{
+	width: 100%;
+    float: left;
+    padding-top: 5px;
+}
+.LoginHipcommerceLogin{
+	width: 100%;
+    float: left;
+}
+.LoginHipcommerceLogin .LogoDiv{
+	width: 25%;
+	float: left;
+}
+.LoginHipcommerceLogin .LogoDiv img{
+	width: 170px;
+}
+.LoginHipcommerceLogin #RegisterSucessFully{
+	width: 70%;
+	margin-top:20px;
+}
+.WOcommerceErrorClass{
+	color: red;
+    float: left;
+}
+.WocommerceCategory{
+	margin-bottom:30px;
+}
+.HipkartMainCategory,
+.WocommerceCategory{
+	float: left;
+    width: 100%;
+}
+.HipkartMainCategoryleft,
+.WocommerceCategoryleft{
+	float: left;
+    width: 30%;
+    font-size: 18px;
+}
+.HipkartMainCategoryRight,
+.WocommerceCategoryRight{
+	float: left;
+    width: 70%;
+}
+.HipkartMAinSpan,.HipkartMAinSpan2,
+.HipkartMAinSpan3{
+	float: left;
+    width: 70%;
+    position: relative;
+}
+.HipkartMainCategoryRight select{
+	width:100%;
+	height: 40px;
+}
+.ShowHipkartCategories{
+	margin-top: 40px;
+    float: left;
+    width: 100%;
+}
+.WocommerceCategoryRight select{
+	width:70%;
+	height: 40px;
+}
+.saveCategory{
+	float: left;
+    width: 100%;
+    position: relative;
+}
+.saveCategory a{
+	float: right;
+    position: relative;
+}
+.saveCategory .BoostProduct{
+	margin-top:0px;
+}
+.saveCategory .loading_spinner{
+	left: 57%;
+}
+.DeleteHipCategory{
+	cursor:pointer;
+	color: #0073B0;
+}
+#LinkCategory{
+	border: none;
+    border-top: none;
+    width: 75%;
+    float: left;
+    padding-left: 1.5%;
+    box-sizing: border-box;
+	margin-top: 20px;
+}
+.LinkHeading{
+	text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.LinkHeading:after {
+    content: " ";
+    display: block;
+    position: relative;
+    height: 1px;
+    background: #FF1F4C;
+    width: 185px;
+    margin: 0px auto;
+    bottom: -10px;
+}
+.HipkartCategories,.HipkartSubCategories,
+.HipkartSubCategories2{
+	position:relative;
+	width: 100%;
+    float: left;
+	margin-bottom:20px;
+}
+.MainCOntainer{
+	width: 99%;
+    float: left;
+    margin-top: 15px;
+    background: #fff;
+    padding: 0;
+}
+.ErrorClass{
+	color: red;
+    text-align: center;
+	font-size: 17px;
+}
+#RegisterSucessFully{
+	margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    width: 100%;
+    float: left;
+}
+.HipMenuMainContainer{
+	float: left;
+    width: 100%;
+    padding-left: 20px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+	position: relative;
+}
+.LogoDiv.ErrorCase{
+	text-align:center;
+}
+.WocoomerceErrorrMsg{
+	text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: gray;
+    margin-top: 20px;
+}
+#Login{
+	width: 95%;
+    margin-left: 2%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.LogoDiv{
+	padding: 10px 20px 0px 20px;
+	width: 100%;
+    box-sizing: border-box;
+}
+.LoginMain{
+	width: 50%;
+    float: left;
+    padding: 10px 0px 30px 0px;
+    box-sizing: border-box;
+}
+#RegisterSucessFully .StoreLinkClass{
+	color: #FF1F4C;
+	font-size:14px;
+	line-height: normal;
+}
+.LoginMainHalf{
+	width: 50%;
+    float: left;
+    background: #FF1F4C;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.LoginMainHalf h2{
+	font-size: 26px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-left: 50px;
+
+}
+.ThingSDONE{
+    float: left;
+    width: 100%;
+	padding: 40px 0px 40px 50px;
+}
+.ThingSDONE p{
+	width: 100%;
+    float: left;
+    padding-left: 43px;
+    background-position: left top;
+    background-size: 28px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin: 10px 0px 6px 0px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+	
+}
+.ThingSDONE .BoostSale{
+	background-image: url('../Images/rocket.png');
+}
+.ThingSDONE .Mobileapps{
+	background-image: url('../Images/Mobile.png');
+}
+.ThingSDONE .DropShipping{
+	background-image: url('../Images/shipping.png');
+}
+.ThingSDONE .CustomerSupport{
+	background-image: url('../Images/Support.png');
+}
+.LoginMain h2{
+	font-size: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    font-weight: 300;
+}
+.LoginCommon{
+	box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+	margin-bottom:10px;
+	float:left;
+}
+.LoginCommon .usernameLogin,.LoginCommon .passwordClass{
+	width: 100%;
+    height: 45px;
+	padding-left: 10px;
+	border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;	
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input[type="submit" i]:focus{
+	box-shadow: none;
+	border-color: #ccc;
+}
+.submitClass:focus{
+	border-color: #FF1F4C !important;
+	outline: none;
+}
+.SubmitButton{
+	margin-top: 10px;
+	position:relative;
+}
+.LoginCommon .submitClass{
+	width: 100%;
+    height: 45px;
+    padding: 0;
+    border: 1px solid #FF1F4C;
+    color: #FFF;
+    background: #FF1F4C;
+    border-radius: 100px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    line-height: 0;
+    transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+}
+.LoginCommon .submitClass:hover{
+    background: #FF1F4C;
+    color: #FFF;
+}
+.submitClasLodr{
+    background: #FF1F4C;
+    border-radius: 100px;
+	width: 100%;
+    height: 45px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	display:none;
+}
+/* Style the tab */
+.AfterLoginPAge img{
+	width: 30px;
+	margin-right: 15px;
+}
+.tab {
+    border: none;
+    background-color: #FF1F4C;
+    box-sizing: border-box;
+    padding-left: 0px;
+    margin-top: 20px;
+    width: 20%;
+    float: left;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	background-color: inherit;
+    float: left;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 0px 15px 15px;
+    transition: 0.3s;
+    font-size: 16px;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+	position: relative;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: transparent;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+       background-color: transparent;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border: none;
+    border-top: none;
+    width: 75%;
+    float: left;
+    padding-left:1.5%;
+	box-sizing: border-box;
+}
+.CreateAccountForHipkart{
+	width: 100%;
+    float: left;
+    text-align: center;
+	color: #9c9c9c;
+}
+.CreateAccountForHipkart a{
+	color: #FF1F4C;
+    text-decoration: none;
+}
+/*Boost by SB*/
+.product{
+	float: left;
+    width: 90%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    list-style: none;
+}
+.AndroidAPPAVAIBLE{
+	float: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+	padding-bottom: 10px;
+}
+.IOSAPPAVAIBLE1{
+	float: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+#Booster .product:last-child{
+    border-bottom: none;
+}
+.Productspan{
+	float:left;
+	width:80%;
+}
+.Productspan a{
+	float:left;
+	width:100%;
+}
+.Productspan img{
+	width: 100px;
+    float: left;
+    height: 100px;
+}
+.Productspan h3{
+	float: left;
+    width: 70%;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.Productspan .price{
+	float: left;
+    width: 50%;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.BoostProduct{
+	float:right;
+	background: #FF1F4C;
+    color: #fff;
+    padding: 10px 40px;
+	margin-top: 20px;
+}
+.hipHelpInfo .infoCircle{
+    height: 20px;
+    display: inline-block;
+    width: 20px;	
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+	cursor: pointer;
+}
+.hipHelpInfo .infoCircle img{
+	height: 18px;
+}
+.hipHelpInfo .infoCircle .hoverText{
+	position: absolute;
+	background: #555;
+	padding: 10px;
+	font-size: 14px;
+	color: #FFF;
+	border-radius: 4px;
+	left: -7px;
+	min-width: 200px;
+	width: 350px;
+	bottom: 30px;
+	display: none;
+}
+.tab button.active:after{
+	background-color: transparent;
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: #FF1F4C;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: -6px;
+    display: inline-block;
+    top: 15px;
+}
+.hipHelpInfo .infoCircle .hoverText:after{
+	content: '';
+	position: absolute;
+	height: 13px;
+	width: 13px;
+	background: #555;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	bottom: -5px;
+	left: 10px;
+	display: inline-block;
+}
+.hipHelpInfo .infoCircle:hover .hoverText{
+	display: block;
+}
+#MobileApp .mobile_frame{
+    width: 33%;
+	float:left;
+}
+#MobileApp .mobile_frame .banner_images {
+    float: left;
+    width: 194px;
+    margin-left: 37px;
+    margin-top: 41px;
+    position: relative;
+    -webkit-user-select: none;
+}
+#MobileApp .mobile_frame .banner_images .krome_kart_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+	float: left;
+    width: 100%;
+    height: 44px;
+}
+
+.full_page_banner{
+    float: left;
+    width: 100%;
+    height: 391px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    overflow: hidden;
+}
+.ScrollImagesMobiles{
+	position: relative;
+}
+.NotCompeletedYet{
+	display:none;
+}
+.SliderImage1{
+	top:0px;
+}.SliderImage2{
+	top:390px;
+}.SliderImage3{
+	top:800px;
+}
+.NoProductDiv{
+	width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+	padding-top: 40px;
+}
+.NoProductDivSpan1{
+	float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.NoProductDivSpan2{
+	font-size: 19px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #717171;
+	line-height: 25px;
+}
+.full_page_banner .ScrollImagesMobiles img{
+   width:100%;
+   position: absolute;
+}
+
+.banner_images:after{
+    background-image: url('../Images/phone_frame.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: -20px;
+    z-index: 8;
+    height: 440px;
+    width: 230px;
+}
+
+#MobileApp .MobileFeatureLeftDIV,
+#MobileApp .Mobile_ThirdDIV{
+	width: 33%;
+    float: left;
+}
+
+#MobileApp .pull-leftHip{
+	float: left !important;
+    margin-right: 10px;
+}
+#MobileApp .pull-leftHip .ia-icon{
+	width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    color: #FF1F4C;
+    border: solid 1px #FF1F4C;
+    display: inline-block;
+    transition: all .2s;
+}
+#MobileApp .pull-leftHip .ia-icon img{
+	width: 30px;
+    padding-top: 22px;
+}
+#MobileApp .features-control-item{
+	position: relative;
+    padding: 35px 0px 15px;
+    transition: all .3s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.mediaLeftHip {
+    float: left;
+    min-height:100px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#MobileApp .pull-leftHip {
+    position: absolute;
+    margin-right: 10px;
+    top: 0;
+    left: 0;
+}
+#MobileApp .media-body {
+   float: left;
+   padding-left: 90px;
+}
+#MobileApp .HipkartMobiletext{
+    margin-top: 5px;
+}
+#MobileApp .Hipmedia-heading{
+    margin-top: 5px;
+    margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.ScrollImagesMobiles{
+	float: left;
+    width: 100%;
+    transition: all ease 400ms;
+}
+#HavingMobileApp{
+	width: 75%;
+    float: left;
+    padding-left: 1.5%;
+}
+#HavingMobileApp .AndriodStatus{
+	display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+#HavingMobileApp .AndriodStatus img{
+	color: #FF1F4C;
+    width: 60px;
+    text-align: center;
+    padding-top: 7px;
+    border: 2px solid #FF1F4C;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#HavingMobileApp .progress_status_bar {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+#HavingMobileApp .progress_status_bar ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+	margin-top: 30px !important;
+}
+#HavingMobileApp .progress_status_bar .progres_icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    z-index: 3;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding-top: 14px;
+    background: #CCC;
+    position: relative;
+    color: #000;
+    font-weight: bold;
+	text-decoration: none;
+}
+#HavingMobileApp .progress_status_bar .prgess_text {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 14px !important;
+    letter-spacing: 0.02em;
+    padding-top: 20px;
+    color: #000;
+}
+#HavingMobileApp .progress_status_bar .coneecting_rod {
+    width: 70%;
+    float: left;
+    left: -35%;
+    z-index: 0;
+    top: 27px;
+    height: 3px;
+    position: absolute;
+    background: #CCC;
+}
+#HavingMobileApp .AndriodStatus .HeadingOfSTatus{
+	display: flex;
+    align-items: center;
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+#HavingMobileApp .AndriodStatus .HeadingOfSTatus span{
+	font-size: 16px;
+}
+#HavingMobileApp .progress_status_bar.ActiveStep1 .LiStep_1 .progres_icon, 
+#HavingMobileApp .progress_status_bar.ActiveStep1 .LiStep_2 .coneecting_rod.first,
+#HavingMobileApp .progress_status_bar.ActiveStep2 .LiStep_2 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep2 .LiStep_3 .coneecting_rod.second,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_3 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_4 .coneecting_rod.last,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_4 .progres_icon{
+	background: #FF1F4C;
+}
+
+#HavingMobileApp .progress_status_bar.ActiveStep2 .LiStep_1 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep2 .LiStep_2 .coneecting_rod.first,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_1 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_2 .coneecting_rod.first,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_2 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_3 .coneecting_rod.second,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_4 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_1 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_2 .coneecting_rod.first,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_2 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_2 .coneecting_rod.first,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_3 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_3 .coneecting_rod.second,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_4 .coneecting_rod.last{
+	background: #69C238;
+}
+
+#HavingMobileApp .progress_status_bar.ActiveStep1 .LiStep_1 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep2 .LiStep_1 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep2 .LiStep_2 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_3 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_1 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep3 .LiStep_2 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_4 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_1 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_2 .progres_icon,
+#HavingMobileApp .progress_status_bar.ActiveStep4 .LiStep_3 .progres_icon{
+	color: #FFF;
+}
+
+#HavingMobileApp .StatusBoxAndroid{
+    width: 100%;
+    float: left;
+	padding-bottom: 30px;
+}
+#HavingMobileApp .StatusBoxApple{
+	border-top: 1px solid #ece9e9;
+    width: 100%;
+    float: left;
+}
+#HavingMobileApp .AppStatusText{
+	float: left;
+    width: 70%;
+    font-size: 15px;
+}
+#HavingMobileApp .AppStatusText label{
+	width: 100%;
+    float: left;
+    font-weight: 600;
+    padding-top: 20px;
+}
+#HavingMobileApp .AppStatusText span{
+	width: 95%;
+    float: left;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    text-align: justify;
+}
+#HavingMobileApp .StatusBoxApple .IOSAPPAVAIBLE{
+	float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#HavingMobileApp .AppStatusText .get_apps_platform{
+	width: 250px;
+    padding: 15px 0px 12px 0px;
+    font-size: 16px;
+    font-family: 'Proxima-thin', Arial, sans-serif;
+    border-radius: 2px;
+    background: #FF1F4C;
+    color: #FFF;
+    margin-top: 10px;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    border: 1px solid #FF1F4C;
+    cursor: pointer;
+}
+#DropShipping .KartSupplyLogo{
+	text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+#DropShipping .KartSupplyLogo img{
+	    width: 230px;
+}
+#DropShipping .floatLeft{
+	float: left;
+    width: 100%;
+}
+#DropShipping .findProdInfo {
+    float: left;
+    width: 50%;
+   padding: 25px 20px 0;
+}
+#DropShipping .findProdInfo .findHead {
+    font-size: 23px;
+    color: #000;
+    margin-bottom: -5px;
+    line-height: 30px;
+}
+#DropShipping .findProdInfo .findSubHead {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 35px;
+}
+#DropShipping .getSupplyNow .getklickBtn {
+    float: left;
+    background: #CE0058;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 19px 38px;
+    text-align: center;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,0.14);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+	text-decoration:none;
+}
+#DropShipping .getSupplyNow .getklickBtn:hover {
+    box-shadow: inset 0 -70px 0 rgba(0,0,0,0.14);
+}
+#DropShipping .importProdSlides {
+    float: left;
+    width: 50%;
+}
+#DropShipping .importProdSlides .KartBannerImage img{
+    max-width:100%;
+}
+#CustomerSupport .customerSupportHeading{
+	margin-top: 30px;
+    text-align: center;
+    font-size: 26px;
+}
+#CustomerSupport .CustomerSupportMAinDIv{
+	width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+#CustomerSupport .CustomerSupportMAinDIvLeft{
+	width: 40%;
+    float: left;
+	text-align: center;
+	padding-left: 30px;
+}
+#CustomerSupport .CustomerSupportMAinDIvRight{
+	width: 60%;
+    float: left;
+}
+#CustomerSupport .CustomerSupportMAinDIvRight img{
+	max-width: 100%;
+}
+#CustomerSupport .CustomerSupportMAinDIvLeft ul li img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+#CustomerSupport .CustomerSupportMAinDIvLeft ul li{
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.login_white_overlay_layer_HipcommercePlugin{
+	display: block;
+    position: fixed;
+    z-index: 10500;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.70);
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    outline: none;
+}
+.Hipcommerce_main_page_login{
+	margin: 0px auto;
+    width: 95%;
+    position: relative;
+    height: 100%;
+    top: 0px;
+    display: table;
+    left: 0px;
+}
+.Hipcommerce_main_page_login_middle{
+	display: table-cell;
+    vertical-align: middle;
+}
+.Hipcommerce_login_theme_popup{
+	float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #f6f6f6;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
